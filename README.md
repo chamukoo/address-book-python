@@ -29,7 +29,6 @@ Below is a sample output.
   
 # 4. View Contacts
 
-
   a. Display all the entries.
   
   ![image](https://user-images.githubusercontent.com/95155301/202893376-d1c1814b-d0a3-4204-9120-38affe6eb84a.png)
@@ -45,6 +44,9 @@ Below is a sample output.
   ![image](https://user-images.githubusercontent.com/95155301/202893489-9255ddb5-68f1-4eeb-9e04-f9050932d517.png)
   
  # 6. Exit
+ 
   a. Close the program.
+  
+  
   ![image](https://user-images.githubusercontent.com/95155301/202893541-e1e35378-352c-4cad-81b4-da891d87aae5.png)
 
