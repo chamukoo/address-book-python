@@ -2,6 +2,8 @@
 An address book python program that can contain 100 or more entries. Data validation for both data and responses are provided.
 
 Below is a sample output.
+
+
 ![image](https://user-images.githubusercontent.com/95155301/202892903-a2b17af7-5885-440d-b47c-fdf303a21589.png)
 
 # 1. Add Contact
