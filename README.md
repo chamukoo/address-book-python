@@ -14,7 +14,8 @@ Below is a sample output.
   
 # 3. Delete Contact
   a. Prompt the user to enter the entry number to be deleted.
-  b. After deleting a record, all succeeding entries will move forward.
+ 
+ b. After deleting a record, all succeeding entries will move forward.
     
 # 4. View Contacts
   a. Display all the entries.
