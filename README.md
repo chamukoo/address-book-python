@@ -9,6 +9,9 @@ Below is a sample output.
 # 1. Add Contact
   a. Prompt the user for the first name, last name, address, and contact number.
   
+  ![image](https://user-images.githubusercontent.com/95155301/202893205-ef18bb8e-dbbd-4e9a-a099-2c134ae52aef.png)
+
+  
 # 2. Edit Contact
   a. Prompt the user for the entry number they want to edit.
   
