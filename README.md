@@ -30,6 +30,7 @@ Below is a sample output.
 # 4. View Contacts
   a. Display all the entries.
   
+  
   ![image](https://user-images.githubusercontent.com/95155301/202893376-d1c1814b-d0a3-4204-9120-38affe6eb84a.png)
 
   
