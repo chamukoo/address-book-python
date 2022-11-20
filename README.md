@@ -21,7 +21,8 @@ Below is a sample output.
 
   
 # 5. Search Address book
-  a. Prompt the user to search the address book (a) by first name, (b) by last name, (c) by address or (d) by contact number
+  a. Prompt the user to search the address book (a) by first name, (b) by last name, (c) by address or (d) by contact number.
+  
   b. Display all the entries that matched the query. Else, notify the user that the entry doesn't exist.
     
  # 6. Exit
