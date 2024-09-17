@@ -1,31 +1,82 @@
-# address-book-python
-An address book python program that can contain 100 or more entries. Data validation for both data and responses are provided.
+# Address Book Python Program
 
-Below is a sample output.
+This is a Python-based Address Book application that allows users to manage their contacts. The application can store 100 or more entries and includes features for adding, editing, deleting, viewing, and searching contacts. Data validation is performed for both contact information and user responses.
 
+## Features
 
-![image](https://user-images.githubusercontent.com/95155301/202892903-a2b17af7-5885-440d-b47c-fdf303a21589.png)
+1. **Add Contact**
+   - The user is prompted to enter the first name, last name, address, and contact number of the person they want to add.
 
-# 1. Add Contact
-  a. Prompt the user for the first name, last name, address, and contact number.
-  
-# 2. Edit Contact
-  a. Prompt the user for the entry number they want to edit.
-  
-# 3. Delete Contact
-  a. Prompt the user to enter the entry number to be deleted.
- 
- b. After deleting a record, all succeeding entries will move forward.
-    
-# 4. View Contacts
-  a. Display all the entries.
+2. **Edit Contact**
+   - The user can edit an existing contact by providing the entry number they wish to modify.
 
-  
-# 5. Search Address book
-  a. Prompt the user to search the address book (a) by first name, (b) by last name, (c) by address or (d) by contact number.
-  
-  b. Display all the entries that matched the query. Else, notify the user that the entry doesn't exist.
-    
- # 6. Exit
-  a. Close the program.
-  
+3. **Delete Contact**
+   - The user can delete a contact by specifying its entry number. Once a contact is deleted, the subsequent entries will automatically move forward.
+
+4. **View Contacts**
+   - Displays all the entries in the address book.
+
+5. **Search Address Book**
+   - The user can search the address book by:
+     - First Name
+     - Last Name
+     - Address
+     - Contact Number
+   - If a match is found, the entry is displayed; otherwise, a notification that the entry doesn't exist will appear.
+
+6. **Exit**
+   - Safely closes the program.
+
+## New Feature: GUI Version
+
+In addition to the command-line version of the address book, we have added a **Graphical User Interface (GUI)** version of the application. The GUI version offers a more user-friendly and interactive experience for managing contacts.
+
+### How to Use the GUI Version
+
+1. **Installation**: 
+   - Ensure you have `Tkinter` installed, as the GUI version is built using Python's Tkinter library.
+
+   ```bash
+   pip install tk
+   ```
+
+2. **Running the GUI Version**: 
+   - Navigate to the folder containing the address book program.
+   - Run the GUI version of the program by executing the following command:
+
+   ```bash
+   python address_book_gui.py
+   ```
+
+3. **Using the GUI**: 
+   - The graphical interface provides easy buttons and input fields for adding, editing, deleting, viewing, and searching contacts.
+
+## Requirements
+
+- Python 3.x
+- For GUI version: Tkinter library (usually included with Python)
+
+## Sample CLI Output
+
+```
+<<<<<<<<<<<<<<<<<< MAIN MENU >>>>>>>>>>>>>>>>>>>
+What would you like to do?
+[1] Add Contact
+[2] Edit Contact
+[3] Delete Contact
+[4] View Contact
+[5] Search Address Book
+[6] Exit
+Choose the number corresponding to your choice: 
+```
+
+## How to Run (Command-Line Version)
+
+1. Clone or download the repository.
+2. Run the `address_book.py` file:
+
+```bash
+python address_book.py
+```
+
+3. Follow the prompts to add, edit, delete, view, or search contacts.
