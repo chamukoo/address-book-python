@@ -70,6 +70,9 @@ What would you like to do?
 Choose the number corresponding to your choice: 
 ```
 
+## Sample GUI Output
+![alt text](image.png)
+
 ## How to Run (Command-Line Version)
 
 1. Clone or download the repository.
