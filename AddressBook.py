@@ -49,7 +49,7 @@ def addContact():
         addresses.append(address)
         phone = input("Contact Number: ")
         numbers.append(phone)
-        contact = f"\t\t\t\t{first: <20}{last: <20}{address: <60}{phone: <15}"
+        contact = f"{first: <20}{last: <20}{address: <60}{phone: <15}"
         contactsList.append(contact)
         print("The contact has been successfully added!")
 
@@ -73,7 +73,7 @@ def editContact():
         last = input("Enter New Last Name: ")
         address = input("Enter New Address: ")
         phone = input("Enter New Contact Number: ")
-        modifiedContact = f"\t\t\t\t{first: <20s}{last: <20s}{address: <60s}{phone: <15s}"
+        modifiedContact = f"\t\t{first: <35s}{last: <20s}{address: <60s}{phone: <15s}"
         contactsList.insert(modify, modifiedContact)
         print("Modification saved!\nPlease go to 'VIEW CONTACT' to see the edited information.\n")
 
